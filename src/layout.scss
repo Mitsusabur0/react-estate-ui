@@ -1,0 +1,26 @@
+@import "./responsive.scss";
+
+.layout {
+    max-width: 1366px;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    @include lg {
+        background-color: rgb(202, 202, 145);
+        max-width: 1280px;
+    }
+
+    @include md {
+        background-color: rgb(128, 113, 85);
+        max-width: 768px;
+    }
+    
+    @include sm {
+        background-color: rgb(173, 124, 124);
+        max-width: 640px;
+    }
+}
+  

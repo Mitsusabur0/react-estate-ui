@@ -8,6 +8,29 @@
         
         .wrapper {
             padding-right: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 50px;
+            height: 100%;
+        }
+
+        .title {
+            font-size: 4rem;
+        }
+
+        .boxes {
+            display: flex;
+            justify-content: space-between;
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.3rem;
+                font-weight: 300;
+            }
         }
     }
 

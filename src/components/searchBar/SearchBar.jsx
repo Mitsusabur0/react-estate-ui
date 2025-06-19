@@ -17,10 +17,10 @@ function SearchBar() {
     }
 
     return (
-        <div className="searchbar">
+        <div className="searchBar">
             <div className="type">
                 {types.map((type) => (
-                    <button key={type} onClick={()=>switchType(type)}>{type}</button>
+                    <button key={type} onClick={() => switchType(type)} className={query.type === type ? "active" : ""}>{type}</button>
                 ))}
             </div>
 
